@@ -1,0 +1,207 @@
+@media only screen and (max-width: 640px) {
+  .logo-container{
+    flex-direction: column;
+  }
+  .email-enter{
+    flex-direction: column;
+  }
+  .main-center-container{
+    flex-direction: column;
+  }
+
+  .middle-sub-contain-3{
+    width: none;
+
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 3px;
+  margin-top: 9px;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+
+input{
+  margin-top: 9px;
+  margin-right: 2px;
+  border: 0;
+  border-radius: 10px;
+}
+
+
+/* I used the guide and examples from the following link to learn about flexboxes https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.logo-container{
+  margin: 0;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  margin-top: 1px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.top-container{
+  background: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.top-links{
+  margin: 0px;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.logo{
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  background: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+.top-flex-item{
+  background: None;
+  padding: 5px;
+  margin-top: 1px;
+  list-style: none;
+  line-height: 50px;
+  color: white;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: center;
+}
+
+.main-center-container{
+  background: None;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-sub-contain-1{
+
+  background: none;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+
+
+}
+
+.middle-sub-contain-2{
+  background: none;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+}
+
+.middle-sub-contain-3{
+  background: rgba(0, 51, 0, .6);
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  list-style: none;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.email-enter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.middle-sub-contain-4{
+  background: none;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+}
+
+.bottom_section{
+  background: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-links-container{
+  background: #338099;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links-holder{
+  color: white;
+  font-weight: normal;
+  font-size: 1em;
+  background: none;
+  list-style: none;
+  text-align: left;
+
+}
+
+.bottom_bar{
+  background-color: salmon;
+  box-shadow: 0px -5px 8px 0px rgba(0,0,0,0.75); /* I used the following website to learn how the box-shadow works: http://www.cssmatic.com/box-shadow */
+  display: flex;
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer{
+  background: none;
+  padding: 0;
+  margin-top: 8;
+  margin-bottom: 8;
+  list-style: none;
+  display: flex;
+  text-align: center;
+
+  justify-content: space-between;
+}
